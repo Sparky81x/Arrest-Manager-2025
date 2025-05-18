@@ -3446,9 +3446,9 @@ namespace Arrest_Manager
         {
             GameFiber.StartNew(delegate
             {
-                Game.LogTrivial("Arrest Manager, developed by Albo1125, has been loaded successfully!");
+                Game.LogTrivial("Arrest Manager, by Albo1125 updated by Sparky for LSPDFR 0.4.9, loaded successfully!");
                 GameFiber.Wait(6000);
-                Game.DisplayNotification("~b~Arrest Manager~s~, developed by ~b~Albo1125, ~s~has been loaded ~g~successfully.");
+                Game.DisplayNotification("~b~Arrest Manager~s~, by ~b~Albo1125, updated by ~b~Sparky for LSPDFR 0.4.9 ~s~has been loaded ~g~successfully.");
             });
             Game.LogTrivial("Arrest Manager is not in beta.");
             choice();
